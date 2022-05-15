@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    padding: 25px 35px;
+    background-color: rgb(33, 44, 66);
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+
+.main-header h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    color: aliceblue;
+    margin: 0;
+    display: inline;
+}
+
+.main-header nav ul li {
+    display: inline;
+    margin-left: -45px;
+}
+
+.main-header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.main-header nav {
+    float: right;
+    margin: 15px 0;
+}
+
+.main-header nav ul li a {
+    font-size: 25px;
+    margin: 0 45px;
+    border-width: 4px;
+    padding: 5px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 6px;
+    
+}
+
+.main-header nav ul li a:hover {
+    color: rgb(33, 44, 66);
+    background-color: bisque;
+    border-color: bisque;
+}
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .8;
+    position: absolute;
+    z-index: 1;
+}
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/02/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    width: 100%;
+    height: 750px;
+    position: relative;
+    padding: 155px;
+    z-index: 4;
+}
+#profile-image {
+    height: 420px;
+    width: 325px;
+    z-index: 2;
+    border: solid 6px;
+    border-color: rgb(33, 44, 66);
+    border-radius: 20px;
+    margin-left: -450px;
+}
+.about-me h2 {
+    font-size: 100px;
+    color: rgb(33, 44, 66);
+    z-index: 2;
+}
+
+.about-me h3 {
+    z-index: 2;
+    font-size: 20px;
+    color: rgb(33, 44, 66);
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    background: white;
+    margin-top: 10px;
+    border: solid;
+    border-width: 6px;
+    border-radius: 20px;
+}
+
+.my-projects {
+    background: rgb(33, 44, 66);
+}
+
+.my-projects h2 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.web-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.web-card img {
+    width: 500px;
+    height: 350px;
+    border: solid;
+    border-color: rgb(33, 44, 66);
+    border-width: 5px;
+}
+
+
+  main {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+      margin-left: 100px;
+  }
+
+  .web-card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .web-card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+    width: 500px;
+    font-size: larger;
+  }
